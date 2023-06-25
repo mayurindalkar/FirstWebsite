@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: aqua;
+  font-size: 1.01rem;
+}
+.left {
+  font: size 1.5rem;
+}
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.section1 > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 2.5rem;
+}
+#element {
+  color: rgb(170, 107, 228);
+}
+.rightsection {
+}
+.rightsection img {
+  width: 80%;
+}
+
+.purple {
+  color: rgb(170, 107, 228);
+}
+
+.section2 {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.box {
+  background-color: white;
+  width: 50vw;
+  height: 2px;
+  margin: 100px 0;
+  display: flex;
+  margin-left: 20%;
+}
+.section2 .vertical {
+  height: 90px;
+  width: 2px;
+  background-color: white;
+  margin: 0 90px;
+}
+.section2 .vertical .html-img {
+  width: 50px;
+  position: relative;
+  top: -60px;
+  left: -23.5px;
+}
+.html-text {
+  position: relative;
+  top: 40px;
+  width: 100px;
+  left: -40px;
+  color: aqua;
+}
+.c-text {
+  position: relative;
+  top: 40px;
+  width: 100px;
+  left: -40px;
+  color: aqua;
+}
+.java-text {
+  position: relative;
+  top: 50px;
+  width: 100px;
+  left: -40px;
+  color: aqua;
+}
+.python-text {
+  position: relative;
+  top: 40px;
+  width: 100px;
+  left: -40px;
+  color: aqua;
+}
+
+.section2 .vertical .c-img {
+  width: 50px;
+  position: relative;
+  top: -60px;
+  left: -23.5px;
+}
+.section2 .vertical .java-img {
+  width: 60px;
+  position: relative;
+  top: -60px;
+  left: -23.5px;
+}
+.section2 .vertical .python-img {
+  width: 50px;
+  position: relative;
+  top: -60px;
+  left: -23.5px;
+}
+main hr {
+  border: 0;
+  background: red;
+  height: 1px;
+  margin: 40px 80px;
+}
+.section2 h1 {
+  font-size: 2rem;
+}
+.textgrey {
+  color: gray;
+}
+
+footer {
+  background-color: #352035;
+}
+.footer {
+  display: flex;
+  padding: 50px 122px;
+  justify-content: space-evenly;
+}
+.footer > div {
+  width: 223px;
+}
+footer .footer-rights {
+  text-align: center;
+  color: white;
+  padding: 12px 0;
+}
